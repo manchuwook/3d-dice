@@ -237,7 +237,7 @@ function init() {
 	for (var i = 0; i < 10; i++) {
 		var die = new DiceD10({
 			size: 1.5,
-			backColor: colors[i],
+			backColor: '#000',
 			fontColor: "#fff"
 		});
 		scene.add(die.getObject());
